@@ -2,6 +2,7 @@
 <!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
   "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
 <module name="com.puppycrawl.tools.checkstyle.Checker">
+
   <module name="SuppressionFilter">
     <property name="file" value="src/checkstyle/checkstyle-suppressions.xml"
       default="https://raw.githubusercontent.com/hatunet/checkstyle/master/java/checkstyle-suppressions.xml"/>
@@ -82,7 +83,7 @@
       <property name="processJavadoc" value="true"/>
     </module>
     <module name="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck">
-      <property name="groups" value="java,/^javax?\./,*,org.springframework"/>
+      <!--<property name="groups" value="java,/^javax?\./,*,org.springframework"/>-->
       <property name="ordered" value="true"/>
       <property name="separated" value="true"/>
       <property name="option" value="bottom"/>
