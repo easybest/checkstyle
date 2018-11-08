@@ -2,10 +2,6 @@
 <!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
   "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
 <module name="com.puppycrawl.tools.checkstyle.Checker">
-  <module name="SuppressionFilter">
-    <property name="file" value="${checkstyle.suppressions.file}"
-      default="https://raw.githubusercontent.com/hatunet/checkstyle/master/java/checkstyle-suppressions.xml"/>
-  </module>
   <!-- Root Checks -->
   <!--<module name="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck">-->
   <!--<property name="headerFile" value="${checkstyle.header.file}" />-->
