@@ -84,9 +84,9 @@
     </module>
     <module name="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck">
       <property name="groups" value="java,/^javax?\./,*,org.springframework"/>
-      <property name="ordered" value="true"/>
+      <property name="ordered" value="false"/>
       <property name="separated" value="true"/>
-      <property name="option" value="bottom"/>
+      <property name="option" value="top"/>
       <property name="sortStaticImportsAlphabetically" value="true"/>
     </module>
 
