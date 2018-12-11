@@ -135,6 +135,7 @@
         value="Line has leading space characters; indentation should be performed with tabs only."/>
       <property name="ignoreComments" value="true"/>
     </module>
+    <!--
     <module name="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck">
       <property name="maximum" value="0"/>
       <property name="format" value="org\.mockito\.Mockito\.(when|doThrow|doAnswer)"/>
@@ -142,7 +143,6 @@
         value="Please use BDDMockito imports."/>
       <property name="ignoreComments" value="true"/>
     </module>
-    <!--
     <module name="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck">
       <property name="maximum" value="0"/>
       <property name="format" value="org\.junit\.Assert\.assert"/>
