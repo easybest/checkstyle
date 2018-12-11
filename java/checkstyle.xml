@@ -142,6 +142,7 @@
         value="Please use BDDMockito imports."/>
       <property name="ignoreComments" value="true"/>
     </module>
+    <!--
     <module name="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineJavaCheck">
       <property name="maximum" value="0"/>
       <property name="format" value="org\.junit\.Assert\.assert"/>
@@ -149,6 +150,7 @@
         value="Please use AssertJ imports."/>
       <property name="ignoreComments" value="true"/>
     </module>
+    -->
     <module name="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck">
       <property name="format" value="[ \t]+$"/>
       <property name="illegalPattern" value="true"/>
